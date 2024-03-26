@@ -14,6 +14,10 @@ This Python library is designed to provide an easy and efficient quotes retrieva
  - **Categories**: Love, Life, Friend, Leadership, Inspiration, Emotion, Humor, Marriage, Poetry, Romance, Classis, Health, and many more.
 
 **Installation**
+`pip install quotes-library` 
+
+or 
+
 `pip install -e git+https://github.com/mymi14s/quotes_library#egg=quotes_library`
 To use this library, you must have Python installed on your system
 
