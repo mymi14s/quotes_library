@@ -3,7 +3,7 @@
 
 **Overview**
 
-This Python library is designed to provide an easy and efficient quotes retrieval. It supports various query options, including filtering by category, author, selecting a random quote, or specifying the number of quotes to retrieve. This library is perfect for applications that need to display inspirational, humorous,  thematic and other quotes to users. It comprise 500k quotes.
+This Python library is designed to provide an easy and efficient quotes retrieval. It supports various query options, including filtering by category, author, selecting a random quote, or specifying the number of quotes to retrieve. This library is perfect for applications that need to display inspirational, humorous,  thematic and other quotes to users. It comprise 500k quotes and 100+ categories.
 
 **Features**
 
@@ -11,9 +11,10 @@ This Python library is designed to provide an easy and efficient quotes retrieva
  - **Find Quotes by Author**: This feature allows users to retrieve quotes from their favorite authors, making it easy to find wisdom from specific thinkers or writers.
  - **Random Quote Selection**: For a more spontaneous experience, users can retrieve a random quote. This feature is ideal for daily quote applications or when you want to offer users a surprise inspiration.
  - **Limit the Number of Quotes**: Users can specify how many quotes they want to retrieve, offering flexibility for different use cases, whether it's displaying a single quote of the day or a list of quotes on a particular topic.
+ - **Categories**: Love, Life, Friend, Leadership, Inspiration, Emotion, Humor, Marriage, Poetry, Romance, Classis, Health, and many more.
 
 **Installation**
-`pip install quotes_library`
+`pip install -e git+https://github.com/mymi14s/quotes_library#egg=quotes_library`
 To use this library, you must have Python installed on your system
 
 **Usage**
