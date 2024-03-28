@@ -12,7 +12,7 @@ def get_quotes(category=None, author=None, count=1, random=False):
         conditions += f""" AND category LIKE "%{category}%" """
     elif(author):
         conditions += f""" AND author LIKE "%{author}%" """
-    if random:
+    if random or (not (category and author and random)):
         conditions +=  """ ORDER BY RANDOM() """
     elif not (category and author) and random:
         conditions +=  """ ORDER BY RANDOM() """
