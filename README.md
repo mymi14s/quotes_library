@@ -27,7 +27,7 @@ To use this library, you must have Python installed on your system
 
 To use this library, you need to import the get_quotes function from the module. Here's a basic example of how to retrieve and print a random quote:
 
-    from quotes_library import get_quotes
+    from quotes_library import get_quotes, get_authors, get_categories
 
 ***Retrieve a single random quote***
 
@@ -50,6 +50,16 @@ Here are more advanced ways to use the library:
 **Get Multiple Random Quotes**:
 
     quotes = get_quotes(random=True, count=3)
+
+**Get Authors**:
+    authors = get_authors(count=5)
+    authors = get_authors(count=5, random=True) # True|1 to randomize result
+    # if no count supplied all authors will be retrieved.
+
+**Get Categories**:
+    categories = get_categories(count=5)
+    categories = get_categories(count=5, random=True) # True|1 to randomize result
+    # if no count supplied, all categories will be retrieved.
 
 **Error Handling**
 
