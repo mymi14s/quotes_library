@@ -61,6 +61,18 @@ Here are more advanced ways to use the library:
     categories = get_categories(count=5, random=True) # True|1 to randomize result
     # if no count supplied, all categories will be retrieved.
 
+**Get Authors**:
+
+    authors = get_authors(count=5)
+    authors = get_authors(count=5, random=True) # True|1 to randomize result
+    # if no count supplied all authors will be retrieved.
+
+**Get Categories**:
+
+    categories = get_categories(count=5)
+    categories = get_categories(count=5, random=True) # True|1 to randomize result
+    # if no count supplied, all categories will be retrieved.
+
 **Error Handling**
 
 The library is designed to be resilient and provide useful feedback. In case of a database connection error or query failure, it returns a structured response indicating the status code and error message.
