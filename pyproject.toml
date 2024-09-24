@@ -1,6 +1,6 @@
 [project]
 name='quotes_library'
-version='0.3'
+version='0.4'
 authors=[{ name="'Anthony Emmanuel'", email="hackacehuawei@gmail.com" }]
 description='This python library generates quotes'
 readme = "README.md"
