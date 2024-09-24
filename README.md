@@ -83,3 +83,6 @@ This project is licensed under the MIT License - see the LICENSE.md file for det
 
 **Github**
 [Quotes Library](https://github.com/mymi14s/quotes_library)
+[Quotes API](https://github.com/mymi14s/quotes_api)
+**Docker**
+[Quotes API](https://hub.docker.com/r/mymi14s/quotes-api)
