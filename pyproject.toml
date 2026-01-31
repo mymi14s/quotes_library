@@ -1,12 +1,19 @@
 [project]
-name='quotes_library'
-version='0.9'
-authors=[{ name="'Anthony Emmanuel'", email="hackacehuawei@gmail.com" }]
-description='This python library generates quotes'
+name = "quotes_library"
+version = "0.4.0"
+authors = [
+    { name = "Anthony Emmanuel", email = "mymi14s@hotmail.com" }
+]
+description = "This python library generates quotes"
 readme = "README.md"
-requires-python = ">=3.10"
+requires-python = ">=3.11"
+license = { text = "MIT" }
 classifiers = [
     "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Programming Language :: Python :: 3.14",
     "License :: OSI Approved :: MIT License",
     "Operating System :: OS Independent",
 ]
@@ -14,3 +21,11 @@ classifiers = [
 [project.urls]
 Homepage = "https://github.com/mymi14s/quotes_library"
 Issues = "https://github.com/mymi14s/quotes_library/issues"
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["quotes_library"]
+include-package-data = true

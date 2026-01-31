@@ -21,7 +21,16 @@ or
 
 `pip install -e git+https://github.com/mymi14s/quotes_library#egg=quotes_library`
 
-To use this library, you must have Python installed on your system
+To use this library, you must have Python installed on your system.
+
+**Note**: This library uses Git LFS to manage its database file (approx 114MB). Before cloning or pulling updates, please ensure you have [Git LFS](https://git-lfs.github.com/) installed:
+```bash
+# Install Git LFS
+git lfs install
+
+# Pull the database file
+git lfs pull
+```
 
 **Usage**
 
